@@ -16,8 +16,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Use Gmail SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = 'danielmaangi@gmail.com'; // Your Gmail address
-        $mail->Password = 'keDM-2021'; // Your Gmail password or App-specific password
+        $mail->Username = 'yourgmail@gmail.com'; // Your Gmail address
+        $mail->Password = 'yourpassword'; // Your Gmail password or App-specific password
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption
         $mail->Port = 587;
 
